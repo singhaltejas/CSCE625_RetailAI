@@ -13,10 +13,15 @@ An AI-powered solution to revolutionize the retail experience through computer v
 - Tracks in-store movement to generate heatmaps of high-traffic areas.
 - Enables real-time occupancy analytics and customer behavior insights.
 
-### 2. 🛒 Cart Detection
-- Uses a **YOLONAS** model to detect items being added to shopping carts.
-- Maintains a real-time digital cart for each customer.
-- Supports seamless checkout and loss prevention.
+### 🛒 Cart Detection System
+
+This project leverages a **YOLO-NAS** model to enable intelligent item detection and tracking in retail shopping environments.
+
+- Leverages the YOLO-NAS model for high-performance, real-time detection of retail items from cart-mounted video footage.
+- Tracks and counts detected items frame-by-frame using Supervision, providing clear overlays and summary stats.
+- Easily configurable for specific product classes and video inputs, ideal for smart retail and automated inventory systems.
+
+
 
 ### 3. 🧾 Shelf Monitoring
 - Uses a YOLO-based model to monitor stock levels on shelves.

@@ -25,7 +25,7 @@ This project leverages **YOLONAS** (a YOLO-based neural architecture search mode
 
     ```
     git clone https://github.com/singhaltejas/CSCE625_RetailAI.git/
-    cd Cart Detection
+    cd Cart\ Detection/
     ```
 
 2.  **Open the notebook:**

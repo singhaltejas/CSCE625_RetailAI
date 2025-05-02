@@ -24,9 +24,8 @@ This project leverages **YOLONAS** (a YOLO-based neural architecture search mode
 1.  **Clone the repo**
 
     ```
-    git clone https://github.com/singhaltejas/YOLONAS_Retail_Store.git
-    cd YOLONAS_Retail_Store
-    pip install -r requirements.txt
+    git clone https://github.com/singhaltejas/CSCE625_RetailAI.git/
+    cd Cart Detection
     ```
 
 2.  **Open the notebook:**

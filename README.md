@@ -62,8 +62,9 @@ cd CSCE625_RetailAI
 
 Each module has its own README:
 
-- [📦 Cart Detection](./Cart Detection/README.md)
-- [🧾 Shelf Monitoring](./Shelf Monitoring/README.md)
+
+- [📦 Cart Detection](./Cart%20Detection/README.md)
+- [🧾 Shelf Monitoring](./Shelf%20Monitoring/README.md)
 - [🧍 Person Detection](./person-detection/README.md)
 
 

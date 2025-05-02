@@ -57,15 +57,41 @@ This project leverages a **YOLO-NAS** model to enable intelligent item detection
 
 ## 🚀 Getting Started
 
-> ⚠️ Each module is currently developed as a standalone project. Follow individual module instructions to run them.
-
+1. **Clone the repo and cd into it**
 ```bash
 # Clone the repo
 git clone https://github.com/singhaltejas/CSCE625_RetailAI.git
 cd CSCE625_RetailAI
 ```
 
-Each module has its own README:
+1. **For Cart Detection**
+```bash
+cd "Cart Detection"
+```
+Then run the YOLONAS_Retail_Store.ipynb cell by cell.
+
+2. **For Shelf Monitoring**
+```bash
+cd "Shelf Monitoring"
+```
+Then install dependencies using :
+```bash
+pip install ultralytics matplotlib numpy opencv-python tqdm pyyaml
+```
+
+If you need to train the model first: (Optional)
+
+```bash
+python train.py
+```
+
+To compare two shelf images and analyze product changes:
+
+```bash
+python main.py
+```
+
+Each module has its own README for further details:
 
 
 - [📦 Cart Detection](./Cart%20Detection/README.md)

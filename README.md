@@ -56,14 +56,14 @@ An AI-powered solution to revolutionize the retail experience through computer v
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/smart-retail-ai.git
-cd smart-retail-ai
+git clone https://github.com/singhaltejas/CSCE625_RetailAI.git
+cd CSCE625_RetailAI
 ```
 
 Each module has its own README:
 
-- [📦 Cart Detection](./cart-detection/README.md)
-- [🧾 Shelf Monitoring](./shelf-monitoring/README.md)
+- [📦 Cart Detection](./Cart Detection/README.md)
+- [🧾 Shelf Monitoring](./Shelf Monitoring/README.md)
 - [🧍 Person Detection](./person-detection/README.md)
 
 

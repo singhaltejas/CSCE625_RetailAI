@@ -69,7 +69,7 @@ Each module has its own README:
 
 
 ## 🤝 Contributors
-- Tejas Singhal [🔗 LinkedIn]([mylinkedin](https://www.linkedin.com/in/tejas-singhal/))
-- Kunal Somendra Singh [🔗 LinkedIn]([mylinkedin](https://www.linkedin.com/in/kunal-s-singh/))
-- Hitarth Chopra [🔗 LinkedIn]([mylinkedin](https://www.linkedin.com/in/hitarth-chopra-27b07a240/)) 
+- Tejas Singhal [🔗 LinkedIn](https://www.linkedin.com/in/tejas-singhal/)
+- Kunal Somendra Singh [🔗 LinkedIn](https://www.linkedin.com/in/kunal-s-singh/)
+- Hitarth Chopra [🔗 LinkedIn](https://www.linkedin.com/in/hitarth-chopra-27b07a240/)
 

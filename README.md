@@ -76,7 +76,8 @@ cd "Shelf Monitoring"
 ```
 Then install dependencies using :
 ```bash
-pip install ultralytics matplotlib numpy opencv-python tqdm pyyaml
+pip install -r requirements.txt
+
 ```
 
 If you need to train the model first: (Optional)

@@ -95,7 +95,8 @@ python main.py
 ```bash
 cd "Store Foot Analyzer"
 ```
-Then run the Hotzone_Mapper.ipynb cell by cell.
+
+Update the path for the example: "Store (1)" as attached in the same folder in the main code. (If necessary) and then run the Hotzone_Mapper.ipynb cell by cell.
 
 Each module has its own README for further details:
 

@@ -1,0 +1,7 @@
+PRODUCT COUNT COMPARISON (BEFORE vs AFTER)
+==================================================
+
+1. Everyuth Naturals Body Lotion Soothing Citrus 200ml: 2 → 0 (2 SOLD)
+2. Everyuth Naturals Body Lotion Nourishing Cocoa 200ml: 2 → 0 (2 SOLD)
+3. Complan Royal Chocolate: 0 → 1 (1 ADDED)
+4. Everyuth Naturals Body Lotion Sun Care Berries SPF 15 200ml: 1 → 0 (1 SOLD)

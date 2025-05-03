@@ -1,0 +1,7 @@
+AFTER IMAGE OBJECT COUNTS
+==================================================
+
+1. Complan Royal Chocolate: 1 objects
+
+TOTAL OBJECTS: 1
+TOTAL UNIQUE CLASSES: 1

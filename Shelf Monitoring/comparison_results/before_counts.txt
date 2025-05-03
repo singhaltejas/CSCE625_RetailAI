@@ -1,0 +1,9 @@
+BEFORE IMAGE OBJECT COUNTS
+==================================================
+
+1. Everyuth Naturals Body Lotion Soothing Citrus 200ml: 2 objects
+2. Everyuth Naturals Body Lotion Nourishing Cocoa 200ml: 2 objects
+3. Everyuth Naturals Body Lotion Sun Care Berries SPF 15 200ml: 1 objects
+
+TOTAL OBJECTS: 5
+TOTAL UNIQUE CLASSES: 3

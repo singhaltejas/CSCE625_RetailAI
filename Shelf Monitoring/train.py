@@ -25,19 +25,19 @@ BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 # Configuration with enhanced parameters
 CONFIG = {
     'data_yaml': os.path.join(BASE_PATH, 'data', 'data.yaml'),
-    'epochs': 50,                     # Increased from 10 to 50 for better convergence
-    'model_size': 'm',                # Upgraded from 'n' to 'm' for better performance
-    'img_size': 640,                  # Standard size for detection
-    'batch_size': 16,                 # Adjust based on GPU memory
+    'epochs': 50,                     
+    'model_size': 'm',                
+    'img_size': 640,                  
+    'batch_size': 16,                 
     'output_dir': os.path.join(BASE_PATH, 'results'),
     'models_dir': os.path.join(BASE_PATH, 'models'),
-    'conf_threshold': 0.25,           # Confidence threshold for detection
-    'save_txt': True,                 # Save text results
-    'save_conf': True,                # Save confidence in text file
-    'augment': True,                  # Enable built-in augmentations
-    'early_stopping': True,           # Enable early stopping to prevent overfitting
-    'patience': 10,                   # Early stopping patience
-    'save_period': 5,                 # Save checkpoint every 5 epochs
+    'conf_threshold': 0.25,           
+    'save_txt': True,                 
+    'save_conf': True,                
+    'augment': True,                  
+    'early_stopping': True,           
+    'patience': 10,                   
+    'save_period': 5,                 
 }
 
 # Create necessary directories
@@ -77,29 +77,29 @@ def train_model(data_yaml, model_size='m', epochs=50, img_size=640, batch_size=1
         name='train_run',
         exist_ok=True,
         plots=True,
-        augment=augment,              # Enable data augmentation
-        mixup=0.2,                    # Apply mixup augmentation
-        mosaic=1.0,                   # Apply mosaic augmentation
-        degrees=10.0,                 # Rotation augmentation
-        translate=0.1,                # Translation augmentation
-        scale=0.5,                    # Scale augmentation
-        fliplr=0.5,                   # Horizontal flip probability
-        flipud=0.1,                   # Vertical flip probability
-        hsv_h=0.015,                  # HSV hue augmentation
-        hsv_s=0.7,                    # HSV saturation augmentation
-        hsv_v=0.4,                    # HSV value augmentation
-        lr0=0.01,                     # Initial learning rate
-        lrf=0.01,                     # Final learning rate ratio
-        momentum=0.937,               # SGD momentum
-        weight_decay=0.0005,          # Weight decay
-        warmup_epochs=3.0,            # Warmup epochs
-        warmup_momentum=0.8,          # Warmup momentum
-        warmup_bias_lr=0.1,           # Warmup bias learning rate
-        box=7.5,                      # Box loss gain
-        cls=0.5,                      # Class loss gain
-        dfl=1.5,                      # DFL loss gain
-        patience=CONFIG['patience'],  # Early stopping patience
-        save_period=CONFIG['save_period'],  # Save every N epochs
+        augment=augment,              
+        mixup=0.2,                    
+        mosaic=1.0,                   
+        degrees=10.0,                 
+        translate=0.1,                
+        scale=0.5,                    
+        fliplr=0.5,                   
+        flipud=0.1,                   
+        hsv_h=0.015,                  
+        hsv_s=0.7,                    
+        hsv_v=0.4,                    
+        lr0=0.01,                     
+        lrf=0.01,                     
+        momentum=0.937,               
+        weight_decay=0.0005,          
+        warmup_epochs=3.0,            
+        warmup_momentum=0.8,          
+        warmup_bias_lr=0.1,           
+        box=7.5,                      
+        cls=0.5,                      
+        dfl=1.5,                     
+        patience=CONFIG['patience'],  
+        save_period=CONFIG['save_period'], 
     )
 
     # Return the trained model and results

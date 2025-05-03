@@ -91,6 +91,12 @@ To compare two shelf images and analyze product changes:
 python main.py
 ```
 
+3. **For Store Foot Analyzer**
+```bash
+cd "Store Foot Analyzer"
+```
+Then run the Hotzone_Mapper.ipynb cell by cell.
+
 Each module has its own README for further details:
 
 

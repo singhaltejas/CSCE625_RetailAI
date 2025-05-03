@@ -3,6 +3,7 @@
 # 🛍️ Smart Retail AI Suite
 
 An AI-powered solution to revolutionize the retail experience through computer vision and real-time analytics. This project is composed of three integrated modules that work together to track customer behavior, manage inventory, and automate checkout processes.
+** Ocassionally used GPT responsibly for guidance through debugging and formatting for code readability.**
 
 ---
 
